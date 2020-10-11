@@ -1,7 +1,7 @@
 version: "3"
 services:
     api:
-        image: hello-world
+        image: hello-world-docker-express
         build: .
         ports:
             - "5000:5000"
